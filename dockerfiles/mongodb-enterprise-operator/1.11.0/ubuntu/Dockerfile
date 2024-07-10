@@ -5,7 +5,7 @@
 ARG imagebase
 FROM ${imagebase} as base
 
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20201014
 
 
 LABEL name="MongoDB Enterprise Operator" \
